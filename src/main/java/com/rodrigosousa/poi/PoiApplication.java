@@ -25,6 +25,6 @@ public class PoiApplication implements CommandLineRunner {
         repository.save(new PointOfInterest("Floricultura", 19L, 21L));
         repository.save(new PointOfInterest("Pub", 12L, 8L));
         repository.save(new PointOfInterest("Supermercado", 23L, 6L));
-        repository.save(new PointOfInterest("Churrascaria", 28L, 22L));
+        repository.save(new PointOfInterest("Churrascaria", 28L, 2L));
     }
 }
